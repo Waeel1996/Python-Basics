@@ -1,4 +1,6 @@
-#format str:
+######## format str functions: ##########
+
+
 
 #exp:
 s='welcome'
@@ -22,4 +24,6 @@ text = 'my name is wael'
 print(text.upper())
 print(text.lower())
 print(text.title())
-
+print(text.replace('is','was')) #to replace words
+print(text.split(','))
+print(text.split(' '))
