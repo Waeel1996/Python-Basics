@@ -21,7 +21,7 @@ while x<=5:
     x+=1
     print('--------------------')
 
-#Nested loop (for)
+# loop (for)
 
 for x in range (1,11):
     for y in range (1,11):
@@ -34,7 +34,6 @@ for x in range (1,11):
 x=5
 y=2
 z=6
-
 #if x==5 and y==2 and z==6:
     #print (' welcome ')
 if all([x==5 , y==2 , z==6]):
@@ -53,4 +52,28 @@ if any([x==5 , y==2 , z==6]):
      #print (' unwelcome ')
 #you can just reverse it to give the true Type and then the condition you want :
 print (' unwelcome ') if any([x==3 , y==1 , z==5]) else print ('False condition')
-     
+
+#Nested loop:
+
+#if g in range (4):
+ #   for p in range (6):
+  #      print(g,p)
+
+
+#break
+
+for x in range (10):
+    if x == 5:
+        break
+    print (x)
+print('-------')
+
+#continue
+
+for x in range (10):
+    if x == 5:
+        continue
+    print (x)
+print('-------')
+
+#pass : to skip a code
