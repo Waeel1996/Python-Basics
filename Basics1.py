@@ -29,7 +29,8 @@ for x in range (1,11):
     print('--------------------')
 
 #all and any
-#instade of typing many ands OR ors, you can use all for many ands, and any for many ors
+#instade of typing many "and" OR "or", you can use "all" for many "and"
+#and "any" for many "or"
 x=5
 y=2
 z=6
