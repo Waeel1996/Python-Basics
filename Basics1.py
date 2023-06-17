@@ -44,3 +44,12 @@ if all([x==5 , y==2 , z==6]):
 
 if any([x==5 , y==2 , z==6]):
      print (' unwelcome ')
+
+
+#true condition false
+#instade of typing :
+     #if any([x==5 , y==2 , z==6]):
+     #print (' unwelcome ')
+#you can just reverse it to give the true Type and then the condition you want :
+print (' unwelcome ') if any([x==3 , y==1 , z==5]) else print ('False condition')
+     
