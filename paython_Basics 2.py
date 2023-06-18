@@ -60,7 +60,7 @@ l.append(1000)
 print(l)
 [100, 2, 3, True, 'welcome', 1000] #it will be added as a last itme in the list
 
-#we can aslo use "insert" to add an item in a specific place :
+#we can aslo use "insert" to add an item in a specific place:
 
 l.insert(0,200)
 print(l)
