@@ -72,7 +72,7 @@ l.remove(200)
 print(l)
 #[100, 2, 3, True, 'welcome', 1000]
 
-#we can sort the itmes in the list using "sort" :
+#we can sort the itmes in the list using "sort"
 l = [5,7,6,100,2,15,77]
 l.sort()
 print(l)
