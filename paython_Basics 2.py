@@ -54,7 +54,7 @@ print(l[0])
 print(l)
 #[100, 2, 3, True, 'welcome']
 
-#to add an itme to the list we can use "append":
+#to add an itme to the list we can use "append"
 
 l.append(1000)
 print(l)
