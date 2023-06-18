@@ -28,7 +28,7 @@ print(text.replace('is','was')) #to replace words
 print(text.split(','))
 print(text.split(' '))
 
-#indexing :
+#indexing:
 
 text = 'my name is wael'
 print(text[0])
