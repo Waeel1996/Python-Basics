@@ -10,7 +10,7 @@ f_name = 'ahmad'
 l_name = 'ali'
 print (f"{f_name} {l_name}")
 
-#\n to jump down a line:
+#\n to jump down a line
 
 print('ahmad \nwael')
 
