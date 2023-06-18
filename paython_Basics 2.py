@@ -18,7 +18,7 @@ print('ahmad \nwael')
 
 print('mahmod \twael')
 
-#some of text funktions:
+#some of text funktions
 
 text = 'my name is wael'
 print(text.upper())
