@@ -41,7 +41,7 @@ print(text[0:6])
 print(text[:6])
 print(text[6:0])
 
-######## list functions: ##########
+######## list functions ##########
 
 l = [1,2,3,True,'welcome']
 
