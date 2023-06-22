@@ -60,7 +60,7 @@ l.append(1000)
 print(l)
 [100, 2, 3, True, 'welcome', 1000] #it will be added as a last itme in the list
 
-#we can aslo use "insert" to add an item in a specific place:
+#we can also use "insert" to add an item in a specific place:
 
 l.insert(0,200)
 print(l)
@@ -77,3 +77,18 @@ l = [5,7,6,100,2,15,77]
 l.sort()
 print(l)
 #[2, 5, 6, 7, 15, 77, 100]
+
+#we can use "reverse" to reverse the the sort of l from the last item to the first item
+l.reverse()
+print(l)
+
+####### tuple funktions #########
+
+d = {'ahmad':70 , 'wael':50}
+# to call an item from tuple we need to name the item
+print(d['wael'])
+print(d['ahmad'])
+
+# if we want to give an item a new value in the tuple :
+d['wael']=100
+print (d['wael'])
