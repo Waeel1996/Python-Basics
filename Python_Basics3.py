@@ -31,13 +31,32 @@ add marks
 get avg
 
 '''
-class Student ():
+class Student:
     #def create_student (self,name): or we can add a constructor and delet the
     #object by defining the "self" s1.creat_student(''Wael)
     def __init__(self,name):
         print (f'Welcome {name}')
-
-#class marks
-
+        self.marks=[]
+        print('')
+    def add_mark (self,mark):
+        self.marks.append(mark)
+        print (self.marks)
+        print('')
+    def avg (self):
+        avg = sum(self.marks)/len(self.marks)
+        print(avg)
 s1 = Student('Wael')
 #s1.create_student ('Wael')
+s1.add_mark (20)
+s1.add_mark (30)
+s1.add_mark (40)
+s1.add_mark (50)
+s1.add_mark (60)
+
+s2 = Student('Ahmad')
+s2.add_mark (40)
+s2.add_mark (50)
+s2.add_mark (60)
+s2.add_mark (70)
+s2.add_mark (80)
+s2.add_mark (90)
