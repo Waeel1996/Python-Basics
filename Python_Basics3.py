@@ -60,3 +60,32 @@ s2.add_mark (60)
 s2.add_mark (70)
 s2.add_mark (80)
 s2.add_mark (90)
+
+######### EX:
+
+class User :
+    def __init__(self,name,age,gender):
+            print(f'Welcome {name}')
+            self.balance=0
+        
+class Bank(User):
+    def __init__(self,name,age,gender):
+        print(f'Welcome {name}')
+        self.balance=0
+    
+    def deposite (self,amount):
+        self.balance += amount
+        print(f'your current balance : {self.balance}')
+    def withdraw (self,amount):
+        if amount > self.balance :
+            print (f'your balance is not enough')
+            return
+        self.balance -=amount
+        print (f'you have just withdrawed : {amount}')
+    def view_balance(self):
+        print(f'your current balance : {self.balance}')
+        
+u1= Bank('Wael',26,'male')
+u1.deposite(600)
+u1.withdraw(100)
+u1.view_balance()
