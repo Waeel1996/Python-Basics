@@ -63,11 +63,10 @@ s2.add_mark (90)
 
 ######### EX:
 
-class User :
+class User:
     def __init__(self,name,age,gender):
             print(f'Welcome {name}')
             self.balance=0
-        
 class Bank(User):
     def __init__(self,name,age,gender):
         print(f'Welcome {name}')
@@ -84,8 +83,9 @@ class Bank(User):
         print (f'you have just withdrawed : {amount}')
     def view_balance(self):
         print(f'your current balance : {self.balance}')
-        
-u1= Bank('Wael',26,'male')
-u1.deposite(600)
-u1.withdraw(100)
+u1= Bank(str(input ('Enter your Name : ')),int(input ('Enter your Age : ')),str( input('Enter your Gender : ')))
+u1.deposite(int(input('Enter your Amount :')))
+u1.withdraw (int(input('Enter your withdraw Amount : ')))
 u1.view_balance()
+
+
